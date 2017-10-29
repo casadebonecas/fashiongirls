@@ -1,0 +1,163 @@
+# fashiongirls
+
+/* ------------------------------- Css ++ Casa de Bonecas ------------ */
+
+.table1 {         
+        color: #d64486;
+        border-top: 1px solid #45443f;
+        border-left: 1px solid #45443f;
+        border-right: 1px solid #d64486;
+        border-bottom: 1px solid #d64486;
+        padding: 2px;
+        margin: 5px;
+        background-color: #45443f;
+	
+}
+
+.table2 {
+        border-bottom: 5px solid #45443f;
+        padding: 1px;
+}
+
+.table3 {
+        color: #d64486;
+        border-top: 1px solid #73716a;
+        border-left: 1px solid #73716a;
+        border-right: 1px solid #3b3a35;
+        border-bottom: 1px solid #3b3a35;
+        padding: 2px;
+        margin: 1px;
+        background-color: #3b3a35;
+}
+
+.table4 {
+        color: #73716a;
+        border-top: 1px solid #3b3a35;
+        border-left: 1px solid #3b3a35;
+        border-right: 1px solid #3b3a35;
+        border-bottom: 1px solid #3b3a35;
+        padding: 2px;
+        margin: 1px;
+        background-color: #3b3a35;
+}
+
+
+/* ------------------------------- Opacidade de Imagens ---------------------------------- */
+
+a img {
+        filter:alpha(opacity=60);
+        -moz-opacity:0.60;
+        opacity:0.60;
+}
+
+a:hover img {
+        filter:alpha(opacity=100);
+        -moz-opacity:1.0;
+        opacity:1.0;
+}
+
+/* ------------------------------- Caixa ---------------------------------- */
+
+input, textarea, select 
+	{font-family: verdana; 
+	font-size: 11px;
+	color: #d64486;
+	border-top: 1px solid #73716a;
+	border-left: 1px solid #73716a;
+	border-right: 1px solid #3b3a35;
+	border-bottom: 1px solid #3b3a35;
+	background-color: #3b3a35;
+}
+
+/* ------------------------------- Comentarios ---------------------------------- */
+
+.comentarios {
+        color: #fe70c8;
+        font-family: verdana;
+        font-size: 11 px;
+        border-top: 1px solid #45443f;
+        border-left: 1px solid #45443f;
+        border-right: 1px solid #d64486;
+        border-bottom: 1px solid #d64486;
+        background-color: #45443f;
+        width: 360px;
+        padding: 10px;
+}
+
+/* ------------------------------- Cmttext ---------------------------------- */
+
+.cmttext{
+	font-family: verdana; 
+	font-size: 11px;
+	color: #d64486;
+	border-top: 1px solid #73716a;
+	border-left: 1px solid #73716a;
+	border-right: 1px solid #3b3a35;
+	border-bottom: 1px solid #3b3a35;
+	background-color: #3b3a35;
+        padding: 5px;
+}
+
+/* ------------------------------- Barra inicial flogvip ---------------------------------- */
+
+#barra{
+width: 100%; 
+height: 36px;
+background: #3b3a35; 
+border-top: 6px solid #d64486;
+text-align: center;
+background: #3b3a35; 
+}
+
+#barra .tubo{
+font-weight: normal;
+font-style: normal;
+background: transparent;
+width: 100%;
+}
+
+#barra .fvbarraf{
+width: 100px;
+height: 18px;
+background: transparent;
+border: #d64486 1px solid;
+font: normal 10px Verdana; color: #d64486; 
+}
+
+#barra .fvbarra a:link, #barra .fvbarra a:visited , #barra .fvbarra a:active{
+color: #d64486;
+line-height: 2px;
+font-size:11 px;
+text-decoration: none;
+text-align:center;
+position: relative; top:auto; left:auto;
+background:transparent;
+}
+
+#barra .fvbarra a:hover{
+color: #73716a;
+line-height: 2px;
+font-size: 11px;
+text-align:center;
+background:transparent;
+}
+
+#barra .fvbarra{
+font: normal 11px Verdana;
+color: #73716a;
+}
+
+#barra .barraimg{
+opacity: 0;
+}
+
+/* ------------------------------- Fundo ---------------------------------- */
+
+#footer {
+       background: #3b3a35 url('http://i53.tinypic.com/29cvqmd.png');
+       width : 1002px;
+       height: 300px;
+       border-bottom: #3b3a35;
+       font-size: 10px;
+       margin-top: 1px;
+}
